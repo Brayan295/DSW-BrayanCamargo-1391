@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fase 2</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            font-family: 'Franklin Gothic Medium';
+        }
+        header{
+            background-color:rgb(221, 228, 188);
+        }
+        section{
+            text-align: center;
+        }
+        
+           
+    </style>
 </head>
 
 <body>
@@ -14,15 +28,16 @@
         <h1>
            <img src="img/Logo.png" alt=""> Empresa Web Design
         </h1>
+        <nav>
+            <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#MediaQueries">Media Queries</a></li>
+                    <li><a href="#Mockup">Mockup</a></li>
+                    <li><a href="#Acercade">Acerca de</a></li>
+            </ul>
+        </nav>
     </header>    
-    <nav>
-        <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="MediaQueries.html">Media Queries</a></li>
-                <li><a href="Mockup.html">Mockup</a></li>
-                <li><a href="Acerca de.html">Acerca de</a></li>
-        </ul>
-    </nav>
+    <hr>
     <section>
         <h2>
             Media Queries Resumen
@@ -34,10 +49,105 @@
         </p>
         <img src="img/MediaQueries.jpg" alt="Media Queries en la actualidad">
     </section>
+    <hr>
+    <!-- Esta es la seccion del tema seleccionado -->
+    <a name="MediaQueries"></a>
+    <section>
+        <h2>
+            Media Queries
+        </h2>
+        <p>
+            En el desarrollo web las media queries juegan un papel importante, ya que por medio se de estas se forman
+            las bases de design responsive, lo cual se refiere a la adaptación de nuestra pagina web en los distintos
+            dispositivos o pantallas
+        </p>
+        <img src="img/Mediaq.png" alt="Nota: Imagen obtenida en https://www.silocreativo.com/media-queries-css">
+        <h3>
+            El inicio de las Media Queries
+        </h3>
+        <p>
+            En 1994 se planteó implementar las media queries en la primera versión de CSS, esta se implemento en los
+            navegadores en el año 2012 junto a la llegada de CSS3.
+            Desde el inicio se buscaba hallar la manera de que el contenido creado en HTML se pudiera visualizar de
+            forma correcta en las distintas pantallas con diferentes resoluciones, esto con el fin de trabajar en la
+            perspectiva que tenía el usuario final o cliente, con la llegada de pantallas con mejores resoluciones y el
+            uso de dispositivos antiguos por varios usuarios, lograron impulsar mas esa necesidad de adaptabilidad en
+            las páginas.
+            En el año 2012 con la llegada de las media queries y la estandarización de la misma, las paginas web
+            lograron dicha adaptabilidad en diferentes tipos de dispositivos con diferentes resoluciones.
+        </p>
+        <h3>
+            Tipos de medios
+        </h3>
+        <p>
+            En CSS3 se puede agregar valores con el fin de elegir el tipo de medio al que se dirige la regla en una
+            media query.
+        </p>
+        <ul>
+            <li>All: Este valor se utiliza para todos los tipos de dispositivos.</li>
+            <li>Print: Este valor se utiliza para las impresoras</li>
+            <li>Screen: Este valor va dirigido Computadores, tablets, teléfonos móviles, entre otros.</li>
+            <li>Speech: Este valor es para los lectores de pantalla, los cuales están dirigidos en su mayoría para
+                personas con discapacidad visual.</li>
+        </ul>
+        <h3>
+            Funciones de Medios
+        </h3>
+        <p>
+            Las funciones de medios nos permiten usar las características en los distintos navegadores o dispositivos, a
+            continuación, veremos algunas de estas características.
+        </p>
+        <ul>
+            <li>Width: Nos ayuda con la anchura de la ventana de visualización.</li>
+            <li>Heigth: Nos ayuda con la altura de la ventana de visualización.</li>
+            <li>Orientation: Nos ayuda a orientar de la ventana de visualización.</li>
+            <li>Resolution: Nos ayuda a definir densidad de píxeles del dispositivo de salida. </li>
+        </ul>
+        <h3>
+            Ejemplo
+        </h3>
+        <p>
+            Media Queries tipo screen usando funciones width y heigth.
+        </p>
+        <img src="img/Ej1.jpg" alt="">
+        <P>
+            funcion Orientación
+        </P>
+        <img src="img/Ej2.png" alt="">
+    </section>
+    <hr>
+    <!-- Esta es la seccion del mockup -->
+    <a name="Mockup"></a>
+    <section>
+        <h2>
+            Mockup de la pagina web
+        </h2>
+        <p>
+            En esta seccion se mostrara el Mockup de la pagina web, el cual fue realizado por medio de la aplicación balasamiq.
+        </p>
+        <img src="img/Captura.PNG" alt="">
+    </section>
+    <!-- Esta es la seccion acerca de -->
+    <hr>
+    <a name="Acercade"></a>
+    <section>
+        <h2>
+            Acerca de...
+        </h2>
+        <p>
+            Pagina Realizada por Brayan Camargo
+        </p>
+        <p>
+            Universidad Nacional Abierta y a Distacia
+        </p>
+        <img src="img/Gracias.jpg" alt="">
+    </section>
+    <hr>
     <footer>
         <h2>
             Política de privacidad
         </h2>
+        <p>Realizado por Brayan Camargo</p>
         <P>Copyrigth Unad-Derechos reservados</P>
         <P>Ultima Actualizacion 13/02/2013 </P>
     </footer>
