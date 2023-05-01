@@ -56,26 +56,33 @@ aside{
     grid-area: C;
     background-color: #E3CCAE ;
     
+    
 }
 .menuaside {
     list-style: none;
-    padding: 2px 30px 2px 30px;
+    padding: 0px 10px 0px 10px;
     
     
 }
 
 .menuaside li a{
     text-decoration: none;
+    width: 45%;
     padding: 10px 30px;
     margin: 2px;
     background-color: #262A56;
     color: white;
     display: flex;
 }
+.twitterUnad{
+    padding: 10px; 
+    width: 180px;
+
+}
 main{
     grid-area: D;
     background-color: #B8621B;
-    padding: 1% 3%;
+    padding: 2% 2%;
 }
 .Secmain{
 
@@ -88,4 +95,23 @@ footer{
     grid-area: E;
     background-color: black;
     color: white;
+}
+
+@media (max-width: 700px) {
+
+    footer{
+        grid-area: E;
+        background-color: red;
+        color: white;
+}
+    .contenedor{
+        display: grid;
+        grid-template-areas:
+    
+        'A A A A'
+        'B B B B'
+        'D D D D'
+        '. C C .'
+        'E E E E';
+}
 }
